@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment学习</string>
+
+    <string name="img_transition_name">ImageTrans</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".send.SendImplicitIntentActivity">
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="dial"
+        android:text="打电话：17367078004"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="map"
+        android:text="查看地图"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="web"
+        android:text="查看网页"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="email"
+        android:text="发送邮件"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="calendar"
+        android:text="创建日历活动"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="illegal"
+        android:text="非法Intent检测"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:onClick="click"
+        android:tag="chooser"
+        android:text="显示选择器对话框"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_fragment_lifecycle_main"
+        android:text="打印Fragment生命周期"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.lifecycle.FragmentLifecycleMainActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_fragment_layout"
+        android:text="多Fragment分屏"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.example.FragmentLayoutActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_manage_back_stack"
+        android:text="Fragment返回栈"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.transaction.ManageBackStackActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_fragment_transition_by_anim"
+        android:text="使用动画进行Fragment过渡"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.transition.FragmentTransitionByAnimActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_fragment_transition"
+        android:text="使用Transition进行Fragment过渡"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.transition.FragmentTransitionActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_fragment_share_element"
+        android:text="共享元素过渡动画"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.transition.FragmentSharedElementActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

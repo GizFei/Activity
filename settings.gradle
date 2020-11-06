@@ -1,0 +1,6 @@
+include ':interaction'
+include ':fragment'
+include ':utility'
+include ':lifecycle'
+include ':app'
+rootProject.name = "Activity"
