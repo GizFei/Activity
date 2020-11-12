@@ -62,4 +62,13 @@
         android:onClick="click"
         tools:ignore="HardcodedText" />
 
+    <Button
+        style="@style/CommonButton"
+        android:id="@+id/btn_fragment_multi_goto"
+        android:text="多Fragment跳转"
+        android:textAllCaps="false"
+        android:tag="com.giz.fragment.multigoto.MultiGotoFragmentActivity"
+        android:onClick="click"
+        tools:ignore="HardcodedText" />
+
 </LinearLayout>

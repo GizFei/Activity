@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/fragment_ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +24,7 @@
         <activity android:name=".transition.FragmentTransitionByAnimActivity" />
         <activity android:name=".transition.FragmentTransitionActivity" />
         <activity android:name=".transition.FragmentSharedElementActivity" />
-
+        <activity android:name=".multigoto.MultiGotoFragmentActivity" />
     </application>
 
 </manifest>
